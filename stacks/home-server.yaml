@@ -1,7 +1,7 @@
 ---
 version: "2"
 services:
-  daapd:
+  daapd-server:
     image: linuxserver/daapd
     container_name: forked-daapd-server
     network_mode: host
@@ -15,6 +15,13 @@ services:
     volumes:
       - /home/pi/docker-resources/forked-daapd-server/config:/config
       - /home/pi/fritz-nas/mp3s:/music
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+  daapd-client:
+    image: evansalter/shairport-sync-docker-pi:latest
+    container_name: shairport-sync-docker-pi
+    network_mode: host
     restart: unless-stopped
     tty: true
     stdin_open: true
