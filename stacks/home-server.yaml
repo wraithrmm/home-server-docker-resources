@@ -1,0 +1,20 @@
+---
+version: "2"
+services:
+  daapd:
+    image: linuxserver/daapd
+    container_name: forked-daapd-server
+    network_mode: host
+    environment:
+      - TZ=Europe/London
+      - DAAPD_NAME=Home Music
+      - DAAPD_PORT=3689
+    ports:
+      - "3688-3689:3688-3689"
+      - "6600:6600"
+    volumes:
+      - /home/pi/docker-resources/forked-daapd-server/config:/config
+      - /home/pi/fritz-nas/mp3s:/music
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
