@@ -1,0 +1,10 @@
+---
+version: "2"
+services:
+  daapd:
+    image: evansalter/shairport-sync-docker-pi:latest
+    container_name: shairport-sync-docker-pi
+    network_mode: host
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
