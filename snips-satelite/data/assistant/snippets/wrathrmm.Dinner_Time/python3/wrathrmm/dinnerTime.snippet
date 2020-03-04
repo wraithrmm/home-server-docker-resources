@@ -1,0 +1,15 @@
+ import paho.mqtt.publish as publish
+ SITE = "bedroom"
+ MQTT_IP_ADDR = "localhost"
+ MQTT_PORT = 1883
+ SOUNDFILE = "/home/pi/batman.wav"
+ binaryFile = open(SOUNDFILE, mode='rb')
+ wav = bytearray(binaryFile.read())
+ publish.single("hermes/audioServer/{}/playBytes/whateverId".format(SITE),
+                payload=wav, hostname=MQTT_IP_ADDR)
+
+fp = open(SOUNDFILE,'rb')
+f = fp.read()
+
+#send over mqtt as a byte array
+mqtt.publish("hermes/audioServer/"+SITE+"/playBytes/", bytearray(f))

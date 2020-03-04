@@ -1,0 +1,4 @@
+INFO:snips_skill_server_lib::runner: searching dir for actions: /var/lib/snips/skills/snips-app-keep-quiet
+INFO:snips_skill_server_lib::runner: found action "/var/lib/snips/skills/snips-app-keep-quiet/action-keep-quiet.py"
+INFO:snips_skill_server_lib::runner: searching dir for actions: /var/lib/snips/skills/snips-app-say-it-again
+INFO:snips_skill_server_lib::runner: found action "/var/lib/snips/skills/snips-app-say-it-again/action-say-it-again.py"

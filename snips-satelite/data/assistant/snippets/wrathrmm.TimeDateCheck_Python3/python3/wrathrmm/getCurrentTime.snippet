@@ -1,0 +1,53 @@
+""" Write the body of the function that will be executed once the intent is recognized. 
+In your scope, you have the following objects : 
+- intentMessage : an object that represents the recognized intent
+- hermes : an object with methods to communicate with the MQTT bus following the hermes protocol. 
+- conf : a dictionary that holds the skills parameters you defined. 
+  To access global parameters use conf['global']['parameterName']. For end-user parameters use conf['secret']['parameterName'] 
+ 
+Refer to the documentation for further details. 
+""" 
+
+from datetime import datetime
+import random
+now = datetime.now()
+hour = now.hour
+min = now.minute
+
+hours = ['twelve', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven']
+ones = [' ', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
+tens = ['oh ', ' ', 'twenty ', 'thirty ', 'fourty ', 'fifty ']
+
+suffix = ""
+if hour > 11:
+	hour -= 12
+	suffix = ""
+
+minTens = min // 10
+minOnes = min % 10
+
+if min == 0:
+	minutes = ""
+elif min >= 10 and min < 20:
+	minutes = ones[int(min)]
+else:
+	minutes = tens[int(minTens)]
+	minutes += ones[int(minOnes)]
+
+intro = random.randint(0, 2)
+if intro == 0:
+  result_sentence = "It is "
+elif intro == 1:
+  result_sentence = "It is "
+elif intro == 2:
+  result_sentence = "It is "
+
+result_sentence += hours[int(hour)]
+result_sentence += " "
+
+result_sentence += minutes
+
+result_sentence += suffix 
+
+current_session_id = intentMessage.session_id
+hermes.publish_end_session(current_session_id, result_sentence)

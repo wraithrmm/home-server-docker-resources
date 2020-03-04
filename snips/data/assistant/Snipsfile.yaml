@@ -1,0 +1,10 @@
+assistant_id: proj_7w6xk6MqPNm
+skills:
+-   name: wrathrmm.Keep_quiet
+    url: https://github.com/koenvervloesem/snips-app-keep-quiet
+    branch: null
+    sha: null
+-   name: wrathrmm.Say_it_again
+    url: https://github.com/koenvervloesem/snips-app-say-it-again
+    branch: null
+    sha: null

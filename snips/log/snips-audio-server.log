@@ -1,0 +1,2 @@
+ERROR:snips_audio_server: Multiple declarations of different audio inputs (disable_capture, portaudio_capture, alsa_capture, mike and nomike have been used at the same time), couldn't choose one
+

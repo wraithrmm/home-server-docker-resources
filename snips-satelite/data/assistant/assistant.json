@@ -1,0 +1,915 @@
+{
+  "id" : "proj_7w6xk6MqPNm",
+  "name" : "Jarvis",
+  "intents" : [ {
+    "id" : "wrathrmm:deleteItem_bringshop",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "Item",
+      "id" : "hImDJ5Doy",
+      "entityId" : "entity_W1onx8bgWYl",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "something you can buy and put on your shopping list"
+    } ],
+    "name" : "deleteItem_bringshop",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:readList_bringshop",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "readList_bringshop",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:additem_bringshop",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "Item",
+      "id" : "slot_imported_iWVXzHcZP",
+      "entityId" : "entity_W1onx8bgWYl",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "additem_bringshop",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:checkList_bringshop",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "Item",
+      "id" : "1rvit2Kgj",
+      "entityId" : "entity_W1onx8bgWYl",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "checkList_bringshop",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:queryNextEvent",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "queryNextEvent",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:queryEventsAtDate",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "date",
+      "id" : "ryuZwgiZ7",
+      "entityId" : "snips/datetime",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "queryEventsAtDate",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:CancelIntent",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "CancelIntent",
+    "enabledByDefault" : false
+  }, {
+    "id" : "cmsimike:rollDice",
+    "type" : "registry",
+    "version" : "1.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "numberOfDice",
+      "id" : "ByPzAOiaG",
+      "entityId" : "snips/number",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "numberOfSides",
+      "id" : "BJOQAdi6G",
+      "entityId" : "snips/number",
+      "missingQuestion" : "How many sides?",
+      "required" : true
+    } ],
+    "name" : "rollDice",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:spellWord",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "Word",
+      "id" : "XEYfFMgtp",
+      "entityId" : "entity_0xD6OGwAk08",
+      "missingQuestion" : "Sorry, what was that word again?",
+      "required" : true
+    } ],
+    "name" : "spellWord",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:lunchBreak",
+    "type" : "registry",
+    "version" : "0.4.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "lunchBreak",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:whatsForDinner",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "date",
+      "id" : "HST2j0mxDF",
+      "entityId" : "snips/date",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "whatsForDinner",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:dinnerTime",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "dinnerTime",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:bye",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "bye",
+      "id" : "BJhInnWOf",
+      "entityId" : "entity_PZO6qQ9q0a8",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "bye"
+    } ],
+    "name" : "bye",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:hello",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "hello",
+      "id" : "BkFd_3WdM",
+      "entityId" : "entity_adVx0yZrmAz",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Says hello"
+    } ],
+    "name" : "hello",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:whereIsPerson",
+    "type" : "registry",
+    "version" : "0.6.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "person_name",
+      "id" : "94KsgofDQ",
+      "entityId" : "entity_vbNn8E7ep9m",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "This is a list of Persons that are locatable in HA."
+    } ],
+    "name" : "whereIsPerson",
+    "enabledByDefault" : true
+  }, {
+    "id" : "koan:Talk",
+    "type" : "registry",
+    "version" : "2.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "Talk",
+    "enabledByDefault" : false
+  }, {
+    "id" : "wrathrmm:Quiet",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "Quiet",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:lawnysStatus",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "lawnysStatus",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:lawnyStart",
+    "type" : "registry",
+    "version" : "0.5.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "lawnyStart",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:lawnyHome",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "lawnyHome",
+    "enabledByDefault" : true
+  }, {
+    "id" : "playPlaylist",
+    "type" : "registry",
+    "version" : "4.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "playlist_name",
+      "id" : "slot_HkUkNyL6Z",
+      "entityId" : "entity_6kW32M9Elxo",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Name of the playlist the user would like to listen to."
+    }, {
+      "name" : "playlist_lecture_mode",
+      "id" : "slot_HyVQVyU6Z",
+      "entityId" : "entity_GAP8VNQorD9",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Lecture mode for the playback."
+    } ],
+    "name" : "playPlaylist",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "playAlbum",
+    "type" : "registry",
+    "version" : "8.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "album_name",
+      "id" : "slot_HJYAS1Ia-",
+      "entityId" : "entity_PQPWANn1Z7V",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Name of the album the user would like to listen to."
+    }, {
+      "name" : "album_lecture_mode",
+      "id" : "slot_HkHtIyIaZ",
+      "entityId" : "entity_GAP8VNQorD9",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Lecture mode for the playback."
+    } ],
+    "name" : "playAlbum",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "speakerInterrupt",
+    "type" : "registry",
+    "version" : "6.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "speakerInterrupt",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "nextSong",
+    "type" : "registry",
+    "version" : "3.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "nextSong",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "volumeDown",
+    "type" : "registry",
+    "version" : "11.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "volume_lower",
+      "id" : "slot_H1Bum1UaW",
+      "entityId" : "entity_ZaZ2xw8K4nVn",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Quantity of levels/steps the user would like to decrease the volume by."
+    } ],
+    "name" : "volumeDown",
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "resumeMusic",
+    "type" : "registry",
+    "version" : "2.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "resumeMusic",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "previousSong",
+    "type" : "registry",
+    "version" : "3.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "previousSong",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "radioOn",
+    "type" : "registry",
+    "version" : "11.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "radio_name",
+      "id" : "slot_B1ZfWyUTW",
+      "entityId" : "entity_7zkE5ay7d6z",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Name of the radio station the user would like to listen to."
+    } ],
+    "name" : "radioOn",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "getInfos",
+    "type" : "registry",
+    "version" : "5.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "music_item",
+      "id" : "slot_r1GFv1LTb",
+      "entityId" : "entity_qZgDO85vPqe",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Type of music item the user would like to get details about."
+    } ],
+    "name" : "getInfos",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "playArtist",
+    "type" : "registry",
+    "version" : "13.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "artist_name",
+      "id" : "slot_ryU35kIT-",
+      "entityId" : "entity_MEPOAO17wmD",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Name of the artist the user would like to listen to."
+    } ],
+    "name" : "playArtist",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "volumeUp",
+    "type" : "registry",
+    "version" : "10.0.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "volume_higher",
+      "id" : "slot_SJo6MJ8pb",
+      "entityId" : "entity_ZaZ2xw8K4nVn",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Quantity of levels/steps the volume should be increased by."
+    } ],
+    "name" : "volumeUp",
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "addSong",
+    "type" : "registry",
+    "version" : "8.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "addSong",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:playSong",
+    "type" : "registry",
+    "version" : "0.1.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "song_name",
+      "id" : "slot_ryKWDkI6b",
+      "entityId" : "entity_YB8lOyvdkX6",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "Name of the song the user would like to listen to."
+    } ],
+    "name" : "playSong",
+    "confirmationRequired" : false,
+    "confirmationQuestion" : "",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:turnOn",
+    "type" : "registry",
+    "version" : "0.9.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "Devices",
+      "id" : "0mZRaeAhq",
+      "entityId" : "entity_Gd6g1NNVzel",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "What device"
+    }, {
+      "name" : "DeviceGroup",
+      "id" : "N9FnwYy3k",
+      "entityId" : "entity_wnv9BGo8ypo",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "What device group"
+    }, {
+      "name" : "Delay",
+      "id" : "v1uFzs1fk",
+      "entityId" : "snips/datetime",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "When should it happen"
+    }, {
+      "name" : "Room",
+      "id" : "kqGrIlsWR",
+      "entityId" : "entity_M8qkvzlP45r",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "Duration",
+      "id" : "_RqL7YmKj",
+      "entityId" : "snips/duration",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "turnOn",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:turnOff",
+    "type" : "registry",
+    "version" : "0.5.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "DeviceGroup",
+      "id" : "swbLLkqwR",
+      "entityId" : "entity_wnv9BGo8ypo",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "Device",
+      "id" : "3tfzQ3xPk",
+      "entityId" : "entity_Gd6g1NNVzel",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "SwitchDelay",
+      "id" : "zU7woYvt4",
+      "entityId" : "snips/datetime",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "Duration",
+      "id" : "dKzt4FIIP",
+      "entityId" : "snips/duration",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "Devices",
+      "id" : "slot_imported_Xaq8BhSCx",
+      "entityId" : "entity_Gd6g1NNVzel",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "Room",
+      "id" : "slot_imported_9UENFkXD1s",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "Delay",
+      "id" : "slot_imported_0LOtIe9e9b",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "turnOff",
+    "enabledByDefault" : true
+  }, {
+    "id" : "koan:WhatDidISay",
+    "type" : "registry",
+    "version" : "3.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "WhatDidISay",
+    "enabledByDefault" : true
+  }, {
+    "id" : "koan:SayItAgain",
+    "type" : "registry",
+    "version" : "4.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "SayItAgain",
+    "enabledByDefault" : true
+  }, {
+    "id" : "koan:RepeatAction",
+    "type" : "registry",
+    "version" : "2.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "RepeatAction",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:showerStatus",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "showerStatus",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:goingToShower",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "period",
+      "id" : "Bke0DtxSW",
+      "entityId" : "snips/timePeriod",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "time",
+      "id" : "YYnbX-X8s",
+      "entityId" : "snips/datetime",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "goingToShower",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:thermostatTurnOff",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "temperature_device",
+      "id" : "slot_imported_HkqC_ZQZVdz",
+      "entityId" : "entity_GK2bAwa4E87",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "house_room",
+      "id" : "slot_imported_SkFRObQZ4OG",
+      "entityId" : "entity_M8qkvzlP45r",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "thermostatTurnOff",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:termostatReport",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "room",
+      "id" : "S4xkuWyJJ",
+      "entityId" : "entity_M8qkvzlP45r",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "termostatReport",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:thermostatSet",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "temperature_device",
+      "id" : "slot_imported_rk2vXeeSbN_z",
+      "entityId" : "entity_GK2bAwa4E87",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "the device that is controlled"
+    }, {
+      "name" : "house_room",
+      "id" : "slot_imported_HkHd7lgr-NuM",
+      "entityId" : "entity_M8qkvzlP45r",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "the room or group of rooms ( ex: \"bedroom\" or \"house\" )"
+    }, {
+      "name" : "temperature",
+      "id" : "slot_imported_SyIdQxxrbNuz",
+      "entityId" : "snips/temperature",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "the absolute temperature that is targeted ( ex: twenty two degrees )"
+    } ],
+    "name" : "thermostatSet",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:thermostatShift",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "temperature_device",
+      "id" : "slot_imported_BJDPlHZI-N_M",
+      "entityId" : "entity_GK2bAwa4E87",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "the device that is controlled"
+    }, {
+      "name" : "house_room",
+      "id" : "slot_imported_ry-veBWIWVuz",
+      "entityId" : "entity_M8qkvzlP45r",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "the part of the house concerned - can also be a group such as \"house\" or \"all\""
+    }, {
+      "name" : "temperature",
+      "id" : "slot_imported_BJOvxS-U-N_f",
+      "entityId" : "snips/temperature",
+      "missingQuestion" : "H",
+      "required" : false,
+      "description" : "the shift in temperature ( ex: two degrees )"
+    }, {
+      "name" : "up_down",
+      "id" : "HJQwL-4OM",
+      "entityId" : "entity_z8Y2Wqky7Pr",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "specifies the direction of the temperature shift ( ex: \"increase\", \"down\", ...)"
+    } ],
+    "name" : "thermostatShift",
+    "enabledByDefault" : true
+  }, {
+    "id" : "rgholmes:getCurrentDay",
+    "type" : "registry",
+    "version" : "1.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "getCurrentDay",
+    "enabledByDefault" : true
+  }, {
+    "id" : "rgholmes:getRandomTime",
+    "type" : "registry",
+    "version" : "1.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "getRandomTime",
+    "enabledByDefault" : true
+  }, {
+    "id" : "rgholmes:getRandomDate",
+    "type" : "registry",
+    "version" : "1.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "getRandomDate",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:getCurrentTime",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "getCurrentTime",
+    "enabledByDefault" : true
+  }, {
+    "id" : "rgholmes:getCurrentDate",
+    "type" : "registry",
+    "version" : "1.0.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "getCurrentDate",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:StopTimer",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "timer_name",
+      "id" : "rkuCD1RCZ",
+      "entityId" : "entity_0xD6OGwAk08",
+      "missingQuestion" : "Which timer do you want to stop?",
+      "required" : true
+    } ],
+    "name" : "StopTimer",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:SetTimer",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "timer_duration",
+      "id" : "HJpXLJCA-",
+      "entityId" : "snips/duration",
+      "missingQuestion" : "For how long?",
+      "required" : true,
+      "description" : "duration of the timer"
+    }, {
+      "name" : "timer_name",
+      "id" : "ByxwLJ00W",
+      "entityId" : "entity_0xD6OGwAk08",
+      "missingQuestion" : "",
+      "required" : false,
+      "description" : "name of the timer"
+    } ],
+    "name" : "SetTimer",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:ResumeTimer",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "timer_name",
+      "id" : "IYJ4aNbH9",
+      "entityId" : "entity_0xD6OGwAk08",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "ResumeTimer",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:PauseTimer",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "timer_name",
+      "id" : "VWOmMhqfd",
+      "entityId" : "entity_0xD6OGwAk08",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "PauseTimer",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:whichRoom",
+    "type" : "registry",
+    "version" : "0.4.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "Room",
+      "id" : "js8CSyq-A",
+      "entityId" : "entity_M8qkvzlP45r",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "Room2",
+      "id" : "9WT_59nZo",
+      "entityId" : "entity_M8qkvzlP45r",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "whichRoom",
+    "enabledByDefault" : false
+  }, {
+    "id" : "wrathrmm:NightTime",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "NightTime",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:GoodMorning",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "GoodMorning",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:GoingToBed",
+    "type" : "registry",
+    "version" : "0.2.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "GoingToBed",
+    "enabledByDefault" : true
+  }, {
+    "id" : "wrathrmm:letterSpellit",
+    "type" : "registry",
+    "version" : "0.4.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "character",
+      "id" : "sLuy5dX8d",
+      "entityId" : "entity_0xD6OGwAk08",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "letterSpellit",
+    "enabledByDefault" : false
+  }, {
+    "id" : "wrathrmm:finishedSpellit",
+    "type" : "registry",
+    "version" : "0.3.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "finishedSpellit",
+    "enabledByDefault" : false
+  }, {
+    "id" : "wrathrmm:when",
+    "type" : "registry",
+    "version" : "0.7.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "delay",
+      "id" : "T_uRh-lts",
+      "entityId" : "snips/datetime",
+      "missingQuestion" : "",
+      "required" : false
+    }, {
+      "name" : "person",
+      "id" : "2lmAP632X",
+      "entityId" : "entity_vbNn8E7ep9m",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "when",
+    "enabledByDefault" : false
+  }, {
+    "id" : "wrathrmm:no",
+    "type" : "registry",
+    "version" : "0.6.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "no",
+      "id" : "BkpYih2Af",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "no",
+    "enabledByDefault" : false
+  }, {
+    "id" : "wrathrmm:notNow",
+    "type" : "registry",
+    "version" : "0.4.0",
+    "language" : "en",
+    "slots" : [ ],
+    "name" : "notNow",
+    "enabledByDefault" : false
+  }, {
+    "id" : "wrathrmm:yes",
+    "type" : "registry",
+    "version" : "0.4.0",
+    "language" : "en",
+    "slots" : [ {
+      "name" : "yes",
+      "id" : "H1I-n32CG",
+      "entityId" : "snips/default",
+      "missingQuestion" : "",
+      "required" : false
+    } ],
+    "name" : "yes",
+    "enabledByDefault" : false
+  } ],
+  "createdAt" : "2019-06-04T07:24:32.202Z",
+  "language" : "en",
+  "version" : {
+    "nluModel" : "0.20.1"
+  },
+  "platform" : {
+    "type" : "raspberrypi"
+  },
+  "asr" : {
+    "type" : "snips"
+  },
+  "analyticsEnabled" : true,
+  "heartbeatEnabled" : true,
+  "hotword" : "hey_snips"
+}

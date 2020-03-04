@@ -1,0 +1,10 @@
+2020-03-02 15:54:59 startup archives unpack
+2020-03-02 15:55:00 install snips-watch:armhf <none> 0.64.0
+2020-03-02 15:55:00 status half-installed snips-watch:armhf 0.64.0
+2020-03-02 15:55:01 status unpacked snips-watch:armhf 0.64.0
+2020-03-02 15:55:01 status unpacked snips-watch:armhf 0.64.0
+2020-03-02 15:55:01 startup packages configure
+2020-03-02 15:55:01 configure snips-watch:armhf 0.64.0 <none>
+2020-03-02 15:55:01 status unpacked snips-watch:armhf 0.64.0
+2020-03-02 15:55:01 status half-configured snips-watch:armhf 0.64.0
+2020-03-02 15:55:01 status installed snips-watch:armhf 0.64.0

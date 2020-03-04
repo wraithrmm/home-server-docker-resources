@@ -1,0 +1,92 @@
+{
+  "parsers_metadata": [
+    {
+      "entity_identifier": "Device Groups",
+      "entity_parser": "parser_1"
+    },
+    {
+      "entity_identifier": "Devices",
+      "entity_parser": "parser_2"
+    },
+    {
+      "entity_identifier": "Persons",
+      "entity_parser": "parser_3"
+    },
+    {
+      "entity_identifier": "Rooms",
+      "entity_parser": "parser_4"
+    },
+    {
+      "entity_identifier": "album_name",
+      "entity_parser": "parser_5"
+    },
+    {
+      "entity_identifier": "artist_name",
+      "entity_parser": "parser_6"
+    },
+    {
+      "entity_identifier": "buyable",
+      "entity_parser": "parser_7"
+    },
+    {
+      "entity_identifier": "bye",
+      "entity_parser": "parser_8"
+    },
+    {
+      "entity_identifier": "hello",
+      "entity_parser": "parser_9"
+    },
+    {
+      "entity_identifier": "lecture_mode",
+      "entity_parser": "parser_10"
+    },
+    {
+      "entity_identifier": "music_item",
+      "entity_parser": "parser_11"
+    },
+    {
+      "entity_identifier": "playlist_name",
+      "entity_parser": "parser_12"
+    },
+    {
+      "entity_identifier": "radio_name",
+      "entity_parser": "parser_13"
+    },
+    {
+      "entity_identifier": "snips/default--Delay",
+      "entity_parser": "parser_14"
+    },
+    {
+      "entity_identifier": "snips/default--Room",
+      "entity_parser": "parser_15"
+    },
+    {
+      "entity_identifier": "snips/default--no",
+      "entity_parser": "parser_16"
+    },
+    {
+      "entity_identifier": "snips/default--yes",
+      "entity_parser": "parser_17"
+    },
+    {
+      "entity_identifier": "song_name",
+      "entity_parser": "parser_18"
+    },
+    {
+      "entity_identifier": "string",
+      "entity_parser": "parser_19"
+    },
+    {
+      "entity_identifier": "temperature_device",
+      "entity_parser": "parser_20"
+    },
+    {
+      "entity_identifier": "tvVolumeAbsolute1-100",
+      "entity_parser": "parser_21"
+    },
+    {
+      "entity_identifier": "up_down",
+      "entity_parser": "parser_22"
+    }
+  ]
+}

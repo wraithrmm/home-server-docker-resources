@@ -1,0 +1,52 @@
+INFO:snips_tts_hermes: starting with provider DefaultTts { primary: None, backup: PicoTts }
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id 'd2f297b0-cb7c-46c0-a4ef-2cc7f6512fc6'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '37f0a065-4516-44f6-baf2-36ae7aae81db'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id 'ce21383f-1d99-4c83-8c4f-801ab192366c'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id 'a8a0f6fa-628e-44a9-a467-8865f8bce54b'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '84e168c2-1824-4e20-b1bd-72d5cc52320d'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '7346276c-14e0-4715-a579-c74817e2e8c0'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '128794e0-9d06-459e-aaf7-35775430e073'. Ignoring it.
+WARN:snips_tts_hermes: attempted to use unknwown sound with id [[sound:mysound]], ignoring
+WARN:snips_tts_hermes: attempted to use unknwown sound with id [[sound:mysound]], ignoring
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id 'cd5c08b0-90e3-46ec-b7cf-465f4d3cd423'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '5845dc45-b10e-408c-8650-78690e30b277'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '047ddc41-5071-4f5b-9e7a-4bee1a7b5dd1'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '4e0f0bc7-7821-48cc-a0d0-938bfdff2ebb'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '6ddab951-01c5-4c64-9cf3-c7d94f28c8fd'. Ignoring it.
+INFO:snips_tts_hermes: Received a play finished message from audio server with an unknown id '330991ce-ab60-46d0-b3f1-fd51e595e182'. Ignoring it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.
+WARN:snips_tts_hermes::sounds: A sound with id mysound was already existing, overwriting it.

@@ -1,0 +1,191 @@
+{
+    "temperature_device": {
+        "vanilla": "5891b69c-2538-4405-b162-bdba0ff4abd3.vanilla", 
+        "ngram": true, 
+        "added": "5891b69c-2538-4405-b162-bdba0ff4abd3.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "playlist_name": {
+        "vanilla": "d22de6fc-4e3b-4711-a7bf-78492effa37a.vanilla", 
+        "ngram": true, 
+        "added": "d22de6fc-4e3b-4711-a7bf-78492effa37a.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "song_name": {
+        "vanilla": "0fa0e71a-390f-4e72-9289-07757ddd30a4.vanilla", 
+        "ngram": true, 
+        "added": "0fa0e71a-390f-4e72-9289-07757ddd30a4.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "snips/duration": {
+        "vanilla": "24ecca0c-d98a-48fd-8bf9-f8095ff706f3.vanilla", 
+        "ngram": false, 
+        "added": "24ecca0c-d98a-48fd-8bf9-f8095ff706f3.added", 
+        "pruningThresholds": [], 
+        "order": 0
+    }, 
+    "Persons": {
+        "vanilla": "4db273be-238d-4abe-9a04-799c266f99bd.vanilla", 
+        "ngram": true, 
+        "added": "4db273be-238d-4abe-9a04-799c266f99bd.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "snips/timePeriod": {
+        "vanilla": "d50b96d0-78d6-498d-8939-ecd6ccbebd96.vanilla", 
+        "ngram": false, 
+        "added": "d50b96d0-78d6-498d-8939-ecd6ccbebd96.added", 
+        "pruningThresholds": [], 
+        "order": 0
+    }, 
+    "bye": {
+        "vanilla": "ce4c62a5-c679-45b4-aad9-4d0d796aaca2.vanilla", 
+        "ngram": true, 
+        "added": "ce4c62a5-c679-45b4-aad9-4d0d796aaca2.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "snips/temperature": {
+        "vanilla": "7fc9284d-3308-414d-b64a-d5484b41de6a.vanilla", 
+        "ngram": false, 
+        "added": "7fc9284d-3308-414d-b64a-d5484b41de6a.added", 
+        "pruningThresholds": [], 
+        "order": 0
+    }, 
+    "string": {
+        "vanilla": "32a467e8-d380-4ec5-a39d-eef4eb07d0e1.vanilla", 
+        "ngram": true, 
+        "added": "32a467e8-d380-4ec5-a39d-eef4eb07d0e1.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "radio_name": {
+        "vanilla": "5723786b-04c2-4c33-86ec-874ddf59d018.vanilla", 
+        "ngram": true, 
+        "added": "5723786b-04c2-4c33-86ec-874ddf59d018.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "snips/number": {
+        "vanilla": "fa5ac128-2571-4329-a023-f7aea853a543.vanilla", 
+        "ngram": false, 
+        "added": "fa5ac128-2571-4329-a023-f7aea853a543.added", 
+        "pruningThresholds": [], 
+        "order": 0
+    }, 
+    "artist_name": {
+        "vanilla": "3257d5b7-023e-4b96-8470-aed3b1b70aeb.vanilla", 
+        "ngram": true, 
+        "added": "3257d5b7-023e-4b96-8470-aed3b1b70aeb.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "Devices": {
+        "vanilla": "0cc9e840-bc2f-43cd-aa41-f736a8150038.vanilla", 
+        "ngram": true, 
+        "added": "0cc9e840-bc2f-43cd-aa41-f736a8150038.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "tvVolumeAbsolute1-100": {
+        "vanilla": "483023e4-d7bc-4f49-8d29-289b666b14d9.vanilla", 
+        "ngram": true, 
+        "added": "483023e4-d7bc-4f49-8d29-289b666b14d9.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "album_name": {
+        "vanilla": "d0e0b3b1-98e5-45bd-b0c3-ca24ceca3631.vanilla", 
+        "ngram": true, 
+        "added": "d0e0b3b1-98e5-45bd-b0c3-ca24ceca3631.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "up_down": {
+        "vanilla": "249545ae-aaa2-4674-a822-0d8f4dacda1a.vanilla", 
+        "ngram": true, 
+        "added": "249545ae-aaa2-4674-a822-0d8f4dacda1a.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "snips/datetime": {
+        "vanilla": "46033cfd-b572-47f1-a376-d00b6b2f6634.vanilla", 
+        "ngram": false, 
+        "added": "46033cfd-b572-47f1-a376-d00b6b2f6634.added", 
+        "pruningThresholds": [], 
+        "order": 0
+    }, 
+    "snips/default--Delay": {
+        "vanilla": "5af891e0-5c50-4df4-9c45-6e1cea6d01f5.vanilla", 
+        "ngram": true, 
+        "added": "5af891e0-5c50-4df4-9c45-6e1cea6d01f5.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "snips/default--yes": {
+        "vanilla": "0d4a3e5a-0171-4286-b98f-6c75de2782e0.vanilla", 
+        "ngram": true, 
+        "added": "0d4a3e5a-0171-4286-b98f-6c75de2782e0.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "buyable": {
+        "vanilla": "1f4880a9-8560-4617-aea4-274a0d1c407e.vanilla", 
+        "ngram": true, 
+        "added": "1f4880a9-8560-4617-aea4-274a0d1c407e.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "music_item": {
+        "vanilla": "293cdc30-ddac-40b9-b341-bcf770ef8fe2.vanilla", 
+        "ngram": true, 
+        "added": "293cdc30-ddac-40b9-b341-bcf770ef8fe2.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "lecture_mode": {
+        "vanilla": "03b83cc8-abde-4a37-9281-191cec99b04b.vanilla", 
+        "ngram": true, 
+        "added": "03b83cc8-abde-4a37-9281-191cec99b04b.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "Rooms": {
+        "vanilla": "450f0708-f03f-40ca-92ab-fc6d84cea95d.vanilla", 
+        "ngram": true, 
+        "added": "450f0708-f03f-40ca-92ab-fc6d84cea95d.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "snips/default--no": {
+        "vanilla": "6ad6ccdf-61e3-4d1d-9e12-90257028ce0a.vanilla", 
+        "ngram": true, 
+        "added": "6ad6ccdf-61e3-4d1d-9e12-90257028ce0a.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "Device Groups": {
+        "vanilla": "12d4cec4-2ab6-438a-abc3-6bbb5ada3691.vanilla", 
+        "ngram": true, 
+        "added": "12d4cec4-2ab6-438a-abc3-6bbb5ada3691.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "hello": {
+        "vanilla": "c992b47a-3eac-4ce4-9529-44412f22ae0b.vanilla", 
+        "ngram": true, 
+        "added": "c992b47a-3eac-4ce4-9529-44412f22ae0b.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }, 
+    "snips/default--Room": {
+        "vanilla": "5a6495a2-c830-4e8e-ba58-6a73eb5a0fe3.vanilla", 
+        "ngram": true, 
+        "added": "5a6495a2-c830-4e8e-ba58-6a73eb5a0fe3.added", 
+        "pruningThresholds": [], 
+        "order": 3
+    }
+}

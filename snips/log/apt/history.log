@@ -1,0 +1,5 @@
+
+Start-Date: 2020-03-02  15:54:59
+Commandline: apt-get install snips-watch -y --allow-unauthenticated
+Install: snips-watch:armhf (0.64.0)
+End-Date: 2020-03-02  15:55:01

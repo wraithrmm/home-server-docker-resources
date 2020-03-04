@@ -1,0 +1,37 @@
+INFO:snips_dialogue_hermes: Loading the configuration file
+INFO:snips_dialogue_lib::config: Loading language en 
+INFO:snips_dialogue_hermes     : Starting...
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn off Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [4cc4ece5-ba20-49b4-8316-f6a5c0c7f82d]: The session has been created because the site "dining-room" is free
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [4cc4ece5-ba20-49b4-8316-f6a5c0c7f82d]: closing session which was active: Nominal
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn on Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn off Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [09ce9468-5736-45f3-92ea-d263a85fea47]: The session has been created because the site "dining-room" is free
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [09ce9468-5736-45f3-92ea-d263a85fea47]: closing session which was active: IntentNotRecognized
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn on Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn off Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [62a00147-3336-41c5-8e2a-9823b9b2790e]: The session has been created because the site "dining-room" is free
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [lounge]: reset site -> turn off ASR and turn off Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [9341ffc3-c828-4de9-9ad7-0c1381c6acff]: The session has been created because the site "lounge" is free
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [dc00aca5-9a06-4099-97b6-3e74efad7c88]: The session has been enqueued because the site "dining-room" is busy
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [62a00147-3336-41c5-8e2a-9823b9b2790e]: closing session which was active: Nominal
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn off Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [dc00aca5-9a06-4099-97b6-3e74efad7c88]: dequeue and start session because the site "dining-room" is now free
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [9341ffc3-c828-4de9-9ad7-0c1381c6acff]: closing session which was active: Nominal
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [lounge]: reset site -> turn off ASR and turn on Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [dc00aca5-9a06-4099-97b6-3e74efad7c88]: closing session which was active: Nominal
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn on Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [lounge]: reset site -> turn off ASR and turn off Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [f190e1be-c86f-4acb-add6-f601befeb2fe]: The session has been created because the site "lounge" is free
+WARN:hermes_mqtt                                 : Error while decoding object on topic "hermes/dialogueManager/endSession": missing field `sessionId` at line 1 column 32
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [f190e1be-c86f-4acb-add6-f601befeb2fe]: closing session which was active: Nominal
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [lounge]: reset site -> turn off ASR and turn on Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn off Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [97b8aa9a-7366-4141-9f4e-f253dc83d282]: The session has been created because the site "dining-room" is free
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [lounge]: reset site -> turn off ASR and turn off Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [466e122b-238c-49ab-9ec5-b0ec2660ac1d]: The session has been created because the site "lounge" is free
+WARN:snips_dialogue_lib::coordinator::coordinator: No Session found for this response: AudioPlayFinished(AudioFinishedPayload)
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [466e122b-238c-49ab-9ec5-b0ec2660ac1d]: closing session which was active: Nominal
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [lounge]: reset site -> turn off ASR and turn on Hotword
+INFO:snips_dialogue_lib::coordinator::coordinator: Session [97b8aa9a-7366-4141-9f4e-f253dc83d282]: closing session which was active: IntentNotRecognized
+INFO:snips_dialogue_lib::coordinator::coordinator: Site [dining-room]: reset site -> turn off ASR and turn on Hotword
