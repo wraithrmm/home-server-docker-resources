@@ -1,0 +1,113 @@
+#################################################################
+# Docker Compose file for MineCraft Bedrock Server
+#
+# The top section is common to all servers
+# Continue to the services section to define your own servers
+#################################################################
+
+version: '3.4'
+
+x-mcserver-common:
+  &default-mcserver
+  build: 
+   context: .
+   args:
+    INSTALLERBASE: ${INSTALLERBASE:-}
+    VERSION: ${VERSION:-}
+    MCUSER: ${MCUSER:-}
+    MCGROUP: ${MCGROUP:-}
+    MCPORT: ${MCPORT:-}
+    AUTOUPDATE: ${AUTOUPDATE:-}
+  volumes:
+  - ${MCVOLUME:-./mcdata}:/mcdata
+  restart: unless-stopped
+  stdin_open: true
+  tty: true
+
+networks:
+ default:
+  driver: macvlan
+  driver_opts:
+   parent: ${NETWORKINTERFACE:-eth0}
+  ipam:
+   config:
+   - subnet: ${IPPREFIX:-192.168.0}.0/24
+
+
+
+#################################################################
+# Define your MineCraft servers here
+#
+# For each server, copy and paste one of the example servers.
+#################################################################
+
+services:
+ 
+#----------------------------------------
+# First Server
+#----------------------------------------
+
+ minecraft-mike-survival:
+  << : *default-mcserver
+  environment:
+   # Be sure to use a unique name for the world
+   WORLD: minecraft-mike-survival
+   # Example server properties that are available for configuration.
+   # These should all be prepended with "MCPROP_".
+   MCPROP_SERVER-NAME: "First Minecraft Server"
+   MCPROP_GAMEMODE: 0             # 0 is survival, 1 is creative, 2 is adventure
+   MCPROP_DIFFICULTY: 2           # 0 is peaceful, 1 is easy, 2 is normal, 3 is hard
+   MCPROP_ALLOW-CHEATS: "true"
+   #MCPROP_LEVEL-SEED: "myseed1"   # only used if world does not yet exist
+  container_name: minecraft-mike-survival
+  networks: 
+   default:
+    # Be sure the last three digits of IP address is unique
+    ipv4_address: ${IPPREFIX:-192.168.0}.201
+ 
+
+#----------------------------------------
+# Second Server
+#----------------------------------------
+
+ minecraft-mann-creative:
+  << : *default-mcserver
+  environment:
+   # Be sure to use a unique name for the world
+   WORLD: minecraft-mann-creative
+   # Example server properties that are available for configuration.
+   # These should all be prepended with "MCPROP_".
+   MCPROP_SERVER-NAME: "Second Minecraft Server"
+   MCPROP_GAMEMODE: 1           # 0 is survival, 1 is creative, 2 is adventure
+   MCPROP_DIFFICULTY: 0         # 0 is peaceful, 1 is easy, 2 is normal, 3 is hard
+   MCPROP_ALLOW-CHEATS: "true"
+   #MCPROP_LEVEL-SEED: "myseed2"  # only used if world does not yet exist
+  container_name: minecraft-mann-creative
+  networks: 
+   default:
+    # Be sure the last three digits of IP address is unique
+    ipv4_address: ${IPPREFIX:-192.168.0}.202
+
+
+#----------------------------------------
+# Third Server
+#----------------------------------------
+
+ minecraft-mann-creative:
+  << : *default-mcserver
+  environment:
+   # Be sure to use a unique name for the world
+   WORLD: minecraft-paige-survival
+   # Example server properties that are available for configuration.
+   # These should all be prepended with "MCPROP_".
+   MCPROP_SERVER-NAME: "Third Minecraft Server"
+   MCPROP_GAMEMODE: 0           # 0 is survival, 1 is creative, 2 is adventure
+   MCPROP_DIFFICULTY: 0         # 0 is peaceful, 1 is easy, 2 is normal, 3 is hard
+   #MCPROP_ALLOW-CHEATS: "false"
+   #MCPROP_LEVEL-SEED: "myseed2"  # only used if world does not yet exist
+  container_name: minecraft-paige-survival
+  networks: 
+   default:
+    # Be sure the last three digits of IP address is unique
+    ipv4_address: ${IPPREFIX:-192.168.0}.203
+
